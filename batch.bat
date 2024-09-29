@@ -1,5 +1,5 @@
 @echo off
-powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/KasaneMitaka/CalcForTests/calc.exe' -OutFile 'calc.exe'"
+powershell -Command "Invoke-WebRequest -Uri 'https://github.com/KasaneMitaka/CalcForTests/raw/main/calc.exe' -OutFile 'calc.exe'"
 
 if exist calc.exe (
     echo File downloaded successfully.
